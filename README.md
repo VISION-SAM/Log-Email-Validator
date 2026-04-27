@@ -16,18 +16,21 @@ This tool automates the discovery and verification of email addresses hidden wit
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/Log-Email-Validator.git](https://github.com/YOUR_USERNAME/Log-Email-Validator.git)
+   git clone https://github.com/VISION-SAM/Log-Email-Validator.git
    cd Log-Email-Validator
-Install dependencies:
+   
+2. Install dependencies:
 
-Bash
+```Bash
 pip install -r requirements.txt
+```
 
 💻 Usage
 Provide the target folder path as a command-line argument:
 
-Bash
+```Bash
 python emailextractor.py ./logs/server_data
+```
 
 🛡️ Security Use Cases
 OSINT: Verifying employee email patterns during reconnaissance.
