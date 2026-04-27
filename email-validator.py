@@ -1,5 +1,3 @@
-# This project is for practice purpose and independent (made with less help)
-
 import re
 import sys
 import os
